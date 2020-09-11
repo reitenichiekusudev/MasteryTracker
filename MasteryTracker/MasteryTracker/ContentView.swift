@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Text("Type of Activity")
+                .font(.title)
+                .foregroundColor(.green)
+            HStack{
+            Text("test 1")
+                .font(.subheadline)
+            Text("test2")
+                .font(.subheadline)
+            }
+        }
     }
 }
 
